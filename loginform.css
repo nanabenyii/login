@@ -1,0 +1,52 @@
+*{
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 3%;
+}
+.login{
+    background: white;
+    border: 1em;
+    width: 30em;
+    height: 25em;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+.login-btn{
+    width: 2%;
+    height: 1em;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+    margin-left: 8%;
+
+}
+.signup-btn{
+    width: 2%;
+    height: 1em;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 80%;
+    
+
+}
+
+.alt-login{
+    width: 45%;
+    height: 16%;
+    border-radius: 0.25em;
+    background-color:white;
+    background-position: center;
+    cursor: pointer;
+}
+.alt-signup{
+    width: 45%;
+    height: 16%;
+    border-radius: 0.25em;
+    background-color:white;
+    background-position: center;
+    cursor: pointer;
+}
+
+
+
