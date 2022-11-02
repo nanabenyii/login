@@ -1,0 +1,130 @@
+*{  box-sizing: border-box;
+    --h1-color: #1F495F;
+    --other-color: #6695AD;
+} 
+
+.login{
+    margin: 0 auto;
+    background: white;
+    padding: 0;
+    
+    position: relative;
+    border: 0.1px solid red;
+    background-image: url("Background.png") ;
+}
+
+.loginForm{
+    background: #FEF8EB;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: max(400px, 70%);
+    border: 0.1px solid blue;
+    border-radius: 2em 2em 0 0;
+}
+
+.signup-btn{
+    width: 2%;
+    height: 1em;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 80%;
+}
+
+h1{
+    color: var(--h1-color);
+    font-weight: bold;
+
+}
+
+h3{
+    color: var(--other-color);
+    font-size: 0.9em;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid var(--h1-color);
+    background: inherit;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0;
+    margin-top: 1em;
+    color:var(--other-color);
+    font-weight: 200;
+}
+
+input::placeholder{
+    color:var(--other-color);
+}
+
+input::placeholder:focus{
+    color:var(--other-color);
+    content:("");
+}
+input:focus{
+    border:none;
+    border-bottom: 1px solid var(--h1-color);
+    outline: none;
+
+}
+
+button{
+    width: 80%;
+    margin: 1.5em  0 0 0;
+    height: 2.5em;
+    border-radius: 0.3em;
+    outline:none;
+    border:none;
+    background-color: var(--h1-color);
+    color: #ffffff;
+    font-size: 1em;
+    box-shadow: 0 0 3px 1px black;
+}
+
+.alt-btn{
+    margin-top: 1em;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.forgotLink{
+    display: inline-block;
+    text-decoration: none;
+    margin: 1.5em 0;
+    color:var(--h1-color);
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.signUp{
+    margin-top: -1em;
+    color:var(--other-color);
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+
+.signUp a{
+    color:#1F495F;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.row{
+    margin: 0 auto;
+    margin-top: 1em ;
+    display: flex;
+    width: 80%;
+}
+
+.row span{
+    display: inline-block;
+}
+.divider{
+    margin: 0 auto;
+    margin-top: 0.5em;
+    width:45%;
+    height: 2px;
+    border-bottom: 1px solid var(--h1-color);
+}
